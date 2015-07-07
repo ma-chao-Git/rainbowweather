@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/humidity"
+        android:text="湿度"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView 
+        android:id="@+id/windDirect"
+        android:text="风向"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView 
+        android:id="@+id/windPower"
+        android:text="风力"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout
+        android:id="@+id/life"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView 
+	        android:id="@+id/chuanyi"
+	        android:text="穿衣指数"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+    
+	    <TextView 
+	        android:id="@+id/ganmao"
+	        android:text="感冒指数"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	        android:id="@+id/kongtiao"
+	        android:text="空调指数"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	        android:id="@+id/wuran"
+	        android:text="污染指数"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+        <TextView 
+	        android:id="@+id/xiche"
+	        android:text="洗车指数"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+    
+	    <TextView 
+	        android:id="@+id/yundong"
+	        android:text="运动指数"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	        android:id="@+id/ziwaixian"
+	        android:text="紫外线指数"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/pm25_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	    
+        <TextView 
+	        android:id="@+id/pm25"
+	        android:text="pm25"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+    
+	    <TextView 
+	        android:id="@+id/pm10"
+	        android:text="pm10"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	        android:id="@+id/quality"
+	        android:text="空气质量"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView 
+	        android:id="@+id/des"
+	        android:text="活动建议"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+    </LinearLayout>
+
+</LinearLayout>

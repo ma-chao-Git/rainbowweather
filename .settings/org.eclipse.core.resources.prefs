@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/com/rainbowweather/app/activity/CityListActivity.java=UTF-8
+encoding//src/com/rainbowweather/app/activity/CityManagerActivity.java=UTF-8
+encoding//src/com/rainbowweather/app/activity/MainActivity.java=UTF-8
+encoding//src/com/rainbowweather/app/activity/WeatherFragment.java=UTF-8
+encoding//src/com/rainbowweather/app/db/RainbowWeatherDB.java=UTF-8
+encoding//src/com/rainbowweather/app/db/RainbowWeatherOpenHelper.java=UTF-8
+encoding//src/com/rainbowweather/app/util/HttpUtil.java=UTF-8
+encoding//src/com/rainbowweather/app/util/MyFragmentPagerAdapter.java=UTF-8
+encoding//src/com/rainbowweather/app/util/RefreshableView.java=UTF-8
+encoding//src/com/rainbowweather/app/util/Utility.java=UTF-8
